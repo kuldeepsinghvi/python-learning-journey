@@ -17,5 +17,6 @@ student_k=[]
 student_k=student.pop(1)
 print(student_k)
 f_name = student_k.pop(0)
+l_name = student_k.pop(0)
 print(student_k)
 student[1]=[f_name,l_name]
