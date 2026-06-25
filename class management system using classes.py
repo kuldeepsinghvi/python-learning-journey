@@ -19,7 +19,7 @@ class Student_Manager():
         f.student_update_data(f_name,l_name,roll_no_new)
         student_db[roll_no_new]=f
 
-        print(f"{roll_no} data have been updated")
+        print(f"{roll_no} data have been updated ")
 
     #delete the student details in db after checking if roll_no exist or not
     def Delete_student(self, student_db, roll_no):
